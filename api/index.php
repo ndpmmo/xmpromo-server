@@ -4,7 +4,7 @@ $HCSET['PASSIVE'] = false;
 
 /* Required settings     */
 $HCSET['OFFER_PAGE'] = 'https://clicks.pipaffiliates.com/c?c=859525&l=vi&p=0';//PHP/HTML file or URL offer used for real users
-$HCSET['DEBUG_MODE'] = 'on';// replace "on" with "off" to switch from debug to production mode
+$HCSET['DEBUG_MODE'] = 'off';// replace "on" with "off" to switch from debug to production mode
 
 /* OFFER_PAGE display method. Available options: meta, 302, iframe */
 /* 'redirect' -  Redirect visitors using JS location.href (best method if the goal is maximum transitions).*/
